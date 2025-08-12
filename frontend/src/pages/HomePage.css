@@ -1,0 +1,44 @@
+/* Dark mode coding platform HomePage */
+.homepage {
+  background-color: #0d0d0d;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Fira Code', monospace;
+  padding: 2rem;
+}
+
+.homepage-content {
+  max-width: 600px;
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  color: #00bfa5;
+  margin-bottom: 1rem;
+}
+
+.homepage p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+.start-btn {
+  background-color: #00bfa5;
+  color: #0d0d0d;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #ff9800;
+  color: #ffffff;
+}
